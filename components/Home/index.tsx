@@ -9,6 +9,7 @@ import {
   DownloadOutlined,
   ArrowRightOutlined,
 } from '@ant-design/icons'
+import Image from 'next/image'
 
 const Home = () => {
   return (
@@ -250,7 +251,7 @@ const Home = () => {
                     "
                   >
 
-                    <img
+                    <Image
                       src="/project/BK.jpg"
                       alt="Bholu Saini - Full Stack Developer"
                       className="
@@ -391,7 +392,7 @@ const Home = () => {
                   xl:text-[56px]
                 "
               >
-                 <span className="text-sm  text-gray-500 sm:text-base">
+              <span className="text-sm  text-gray-500 sm:text-base">
                 Hello, I'm
               </span>
             
