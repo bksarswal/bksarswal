@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { FC, ReactNode, useEffect, useState } from 'react'
 import 'animate.css'
 import { MenuOutlined } from '@ant-design/icons'
+import Image from 'next/image'
 
 interface ChildrenInterface {
   children: ReactNode
@@ -123,7 +124,7 @@ const Layout: FC<ChildrenInterface> = ({ children }) => {
           href="https://wa.me/+918949302731?text=Hi !"
           className="w-16 h-16 fixed bottom-0 right-0 m-8 flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-2xl animate-bounce"
         >
-          <img
+          <Image
             className="w-full h-full rounded-full"
             src="/watsapp.webp"
             alt="WhatsApp"

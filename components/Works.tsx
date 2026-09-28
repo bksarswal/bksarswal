@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowUpOutlined } from "@ant-design/icons";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -313,7 +314,7 @@ const Works = () => {
                 sm:h-[245px]
               "
             >
-              <img
+              <Image
                 src={item.image}
                 alt={item.title}
                 className="
