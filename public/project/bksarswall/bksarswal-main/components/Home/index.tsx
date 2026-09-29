@@ -70,13 +70,13 @@ const Home = () => {
         className="
           relative
           flex
-          min-h-[calc(100vh-180px)]
+          min-h-[calc(100vh-80px)]
           items-center
           px-6
-          py-8
+          py-16
           sm:px-8
           lg:px-10
-          lg:p-1.5
+          lg:py-12
         "
       >
 
@@ -583,14 +583,12 @@ const Home = () => {
                 <div>
 
                   <p className="text-lg font-bold sm:text-xl">
-                    3.5+  Years Experience
-                    <span className=" text-[10px] text-gray-500 sm:text-[11px]">
-                   
-                  </span>
+                    3.5+
                   </p>
 
-                  
-
+                  <p className="mt-1 text-[10px] text-gray-500 sm:text-[11px]">
+                    Years Experience
+                  </p>
 
                 </div>
 
@@ -604,7 +602,9 @@ const Home = () => {
                     MERN
                   </p>
 
-                
+                  <p className="mt-1 text-[10px] text-gray-500 sm:text-[11px]">
+                    Full Stack
+                  </p>
 
                 </div>
 
@@ -618,7 +618,9 @@ const Home = () => {
                     AWS
                   </p>
 
-                
+                  <p className="mt-1 text-[10px] text-gray-500 sm:text-[11px]">
+                    Cloud
+                  </p>
 
                 </div>
 
