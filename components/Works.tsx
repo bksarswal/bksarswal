@@ -317,6 +317,8 @@ const Works = () => {
               <Image
                 src={item.image}
                 alt={item.title}
+                 width={1000}
+                height={1000}
                 className="
                   h-full
                   w-full

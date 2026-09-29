@@ -128,6 +128,8 @@ const Layout: FC<ChildrenInterface> = ({ children }) => {
             className="w-full h-full rounded-full"
             src="/watsapp.webp"
             alt="WhatsApp"
+            width={1000}
+            height={1000}
           />
         </Link>
       </div>

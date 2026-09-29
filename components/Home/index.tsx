@@ -254,6 +254,8 @@ const Home = () => {
                     <Image
                       src="/project/BK.jpg"
                       alt="Bholu Saini - Full Stack Developer"
+                      width={1000}
+                      height={1000}
                       className="
                         h-full
                         w-full

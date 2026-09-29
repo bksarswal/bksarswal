@@ -397,6 +397,8 @@ const Skills = () => {
                       <Image
                         src={skill.image}
                         alt={skill.name}
+                         width={1000}
+                      height={1000}
                         className="
                           relative
                           z-10
