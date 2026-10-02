@@ -252,7 +252,7 @@ const Home = () => {
                   >
 
                     <Image
-                      src="/project/BK.jpg"
+                      src="/BK.jpg"
                       alt="Bholu Saini - Full Stack Developer"
                       width={1000}
                       height={1000}
