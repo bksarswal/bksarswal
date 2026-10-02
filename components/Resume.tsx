@@ -16,7 +16,7 @@ const education: ResumeItemInterface[] = [
   { time: "2020 - 2024", title: "Bachelor of Technology in Computer science & Engineering", institute: "Rajasthan Techanical University" },
   { time: "2019 - 2020", title: "Higher Secondary ", institute: "RBSE" },
   { time: "2017 - 2018", title: "Senior Secondary", institute: "RBSE" },
-  { time: "Feb 2021 - Oct 2021", title: "MERN Stack Web Developmont", institute: "Wap Institute" },
+  { time: "2022", title: "MERN Stack Web Developmont", institute: "Wap Institute" },
 ];
 
 const ResumeCard = ({ item }: { item: ResumeItemInterface }) => (

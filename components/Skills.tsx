@@ -115,43 +115,7 @@ const Skills = () => {
 
         {/* Label */}
 
-        <div
-          className="
-            mb-6
-            inline-flex
-            items-center
-            gap-2.5
-            rounded-full
-            border
-            border-white/[0.08]
-            bg-white/[0.025]
-            px-4
-            py-2
-            shadow-[inset_0_1px_0_rgba(255,255,255,0.05)]
-            backdrop-blur-xl
-          "
-        >
-          <span
-            className="
-              h-1.5
-              w-1.5
-              rounded-full
-              bg-indigo-400
-              shadow-[0_0_14px_rgba(129,140,248,1)]
-            "
-          />
-
-          <span
-            className="
-              text-[10px]
-              font-semibold
-              tracking-[0.25em]
-              text-gray-400
-            "
-          >
-            TECHNICAL EXPERTISE
-          </span>
-        </div>
+      
 
         {/* Heading */}
 

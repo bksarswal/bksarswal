@@ -74,22 +74,16 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Form.Item
                 name="firstName"
-                label={<span className="text-white">First Name</span>}
+                label={<span className="text-white">Full Name</span>}
               >
                 <Input
-                  placeholder="First name"
+                  placeholder="Full name"
                   className="bg-black! !text-white placeholder-gray-400! py-2!"
                 />
               </Form.Item>
-              <Form.Item
-                name="lastName"
-                label={<span className="text-white">Last Name</span>}
-              >
-                <Input
-                  placeholder="Last name"
-                  className="bg-black! !text-white placeholder-gray-400! py-2!"
-                />
-              </Form.Item>
+              
+                
+              
               <Form.Item
                 name="email"
                 label={<span className="text-white">Email</span>}
@@ -149,10 +143,10 @@ const Contact = () => {
             <div>
               <p className="font-semibold">Phone</p>
               <Link
-                href="tel:+918949302731"
+                href="tel:+917014926035"
                 className="text-blue-400 hover:underline"
               >
-                +91 8949302731
+                +91 7014926035
               </Link>
             </div>
           </div>
@@ -170,18 +164,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* <div className="flex items-start gap-8 text-white">
-            <GithubOutlined className="text-4xl font-bold bg-gradient-to-r from-[#1e3a8a] via-[#3b82f6] to-[#60a5fa] rounded-full p-2" />
-            <div>
-              <p className="font-semibold">Github</p>
-              <Link
-                href="https://github.com/bksarswal"
-                className="text-blue-400 hover:underline"
-              >
-                <small>https://github.com/bksarswal</small>
-              </Link>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

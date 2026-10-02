@@ -499,7 +499,7 @@ const Home = () => {
 
                 <Link
                   href="/bholusaini.pdf"
-                  download="Bholu-Saini-Resume.pdf"
+                  download="bholusaini.pdf"
                   className="
                     group
                     inline-flex
