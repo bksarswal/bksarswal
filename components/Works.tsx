@@ -7,7 +7,7 @@ const Works = () => {
   return (
   
 <section
-  id="projects"
+  id="works"
   className="relative scroll-mt-16 overflow-hidden px-4 py-20 sm:px-6 sm:py-12 lg:px-8"
 >
   {/* Background Glow */}
@@ -25,7 +25,8 @@ const Works = () => {
 
         <div className="mb-12 max-w-2xl ">
           <h2 className="text-4xl text-center font-bold tracking-tight text-white sm:text-5xl">
-            Projects i&apos;ve
+            Projects i&apos;ve {" "}
+
             <span
               className="text-violet-400"
               style={{
