@@ -18,9 +18,7 @@ const Footer = () => {
                   </Link>
                 </div>
   
-                {/* <label className="text-2xl font-bold bg-gradient-to-r from-[#1e3a8a] via-[#3b82f6] to-[#60a5fa] bg-clip-text text-transparent">
-                  SARSWAL
-                </label> */}
+             
               </div>
 
           {/* Menu */}

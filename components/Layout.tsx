@@ -72,7 +72,7 @@ const Layout: FC<ChildrenInterface> = ({ children }) => {
             {/* Contact Button */}
             <div className="ml-4 lg:block hidden">
               <Link
-                href="https://wa.me/+918949302731?text=Hi !"
+                href="https://wa.me/+917014926035?text=Hi !"
                 className="bg-gradient-to-r from-sky-400 via-indigo-400 to-purple-400  text-white font-semibold px-8 py-3 rounded-full hover:bg-indigo-700 transition"
               >
                 Contact me!
@@ -121,7 +121,7 @@ const Layout: FC<ChildrenInterface> = ({ children }) => {
       {/* WhatsApp Floating Icon */}
       <div>
         <Link
-          href="https://wa.me/+918949302731?text=Hi !"
+          href="https://wa.me/+917014926035?text=Hi !"
           className="w-16 h-16 fixed bottom-0 right-0 m-8 flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 hover:shadow-2xl animate-bounce"
         >
           <Image
